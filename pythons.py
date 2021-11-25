@@ -2,7 +2,7 @@
 import sys
 import os
 
-print(sys.argv[1])
+#print(sys.argv[1])
 print(os.getcwd())
 # job_name='param'
 # s=jenkins.Jenkins('http://localhost:8080/job/param/')
