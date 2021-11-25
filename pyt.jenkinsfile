@@ -18,7 +18,7 @@ stage('Checkout')
     stage('Run Script')
     {
     steps{
-        bat 'python pythons.py USD'
+        bat 'python pythons.py params.FolderName'
          }
      }
 }
