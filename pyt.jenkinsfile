@@ -17,7 +17,7 @@ stage('Checkout') {
     stage('Run Script')
     {
     steps{
-        bat "python pythons.py"  
+        bat "python pythons.py USD"  
 }
 }
 }
