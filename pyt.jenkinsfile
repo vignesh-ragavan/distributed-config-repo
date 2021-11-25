@@ -14,7 +14,7 @@ stages{
     
     script{
     step(
-        bat "python pythons.py USD"
+        bat 'python pythons.py USD'
     )
     
     
