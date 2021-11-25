@@ -20,7 +20,7 @@ stage('Checkout') {
     
     script{
     step(
-        bat 'python pythons.py USD'
+        sh "python pythons.py USD"
     )
     
     
