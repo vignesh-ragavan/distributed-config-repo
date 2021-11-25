@@ -18,8 +18,7 @@ stage('Checkout')
     stage('Run Script')
     {
     steps{
-        bat 'pip install python-jenkins'
-        bat 'python pythons.py $params.FolderName'
+        bat 'python pythons.py'
          }
      }
 }
