@@ -9,7 +9,8 @@ string(name: 'FolderName', defaultValue: 'USD,GBP')
 
 stages{
 
-stage('Checkout') {
+stage('Checkout')
+{
             steps {
                 checkout([$class: 'GitSCM', branches: [[name: '*/main']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[ url: 'https://github.com/vignesh-ragavan/distributed-config-repo']]])
             }
@@ -17,8 +18,8 @@ stage('Checkout') {
     stage('Run Script')
     {
     steps{
-        bat "python pythons.py"  
-}
-}
+        bat 'python pythons.py'
+         }
+     }
 }
 }
