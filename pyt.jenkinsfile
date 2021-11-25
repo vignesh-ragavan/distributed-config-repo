@@ -11,11 +11,12 @@ stages{
     stage('Run Script')
     {
     steps{
-    step{
+    
     script{
+    step(
         bat "python pythons.py USD"
-    }
-    }
+    )
+    
     
 }
 }
