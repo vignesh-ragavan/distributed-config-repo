@@ -1,7 +1,6 @@
 
 import sys
 import os
-import jenkins
 
 print(sys.argv[1])
 print(os.getcwd())
