@@ -4,7 +4,8 @@ import os
 
 #print(sys.argv[1])
 print(os.getcwd())
-print(os.getenv("FolderName"))
+e=os.getenv("FolderName")
+print(e)
 # job_name='param'
 # s=jenkins.Jenkins('http://localhost:8080/job/param/')
 # build_info=s.get_build_info(job_name,build_num)
