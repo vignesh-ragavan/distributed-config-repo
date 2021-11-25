@@ -13,7 +13,7 @@ stages{
     steps{
     step{
     script{
-        bat "python pythonsc.py
+        bat "python pythons.py
     }
     }
     
